@@ -1,0 +1,29 @@
+#seconds{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    font-size: 44px;
+    color: red;
+}
+
+#minutes{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 44px;
+    color: red;
+}
+
+#hours{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 44px;
+    color: red;
+}
+
+button{
+    position: relative;
+    top: 60px;
+    color: black;
+}
