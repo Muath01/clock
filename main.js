@@ -29,7 +29,7 @@ function increment(){
 
 function incrementMinutes(){
     minutes.innerHTML = minTracker;
-    if (secTracker == 5) {
+    if (secTracker == 60) {
         secTracker = -1;
         minTracker += 1
     }
@@ -37,7 +37,7 @@ function incrementMinutes(){
 
 function incrementHours(){
     hours.innerHTML = hourTracker;
-    if (minTracker == 2) {
+    if (minTracker == 60) {
         minTracker = 0
         hourTracker += 1
     }

@@ -24,6 +24,12 @@
 
 button{
     position: relative;
-    top: 60px;
+    top: 100px;
     color: black;
+}
+
+#container{
+    padding-left: 20px;
+    margin-top: 20px;
+    background-color: blue
 }
