@@ -1,35 +1,33 @@
-#seconds{
-    position: absolute;
-    left: 200px;
-    top: 20px;
-    font-size: 44px;
-    color: red;
-}
-
-#minutes{
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    font-size: 44px;
-    color: red;
-}
-
-#hours{
-    position: absolute;
-    left: 100px;
-    top: 20px;
-    font-size: 44px;
-    color: red;
-}
-
-button{
+.container{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    left: 100;
+    background-color: black;
+    color: coral;
     position: relative;
-    top: 100px;
-    color: black;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-#container{
-    padding-left: 20px;
-    margin-top: 20px;
-    background-color: blue
+
+.inner-container{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner-container div{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    background-color: coral;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid maroon;
 }

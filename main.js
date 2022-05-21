@@ -1,6 +1,6 @@
-const seconds = document.getElementById("seconds");
-const minutes = document.getElementById("minutes");
-const hours = document.getElementById("hours");
+const seconds = document.querySelector("#seconds");
+const minutes = document.querySelector("#minutes");
+const hours = document.querySelector("hours");
 const btnStart = document.getElementById("btn-start");
 const btnPause = document.getElementById("btn-pause");
 
